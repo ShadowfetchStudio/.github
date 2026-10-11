@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible problem in a Shadowfetch Studio project.
+body:
+  - type: markdown
+    attributes:
+      value: "Check existing issues first. For vulnerabilities, use the project's security policy. Remove secrets and personal data from logs and screenshots."
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      description: Release tag, app version, or commit SHA.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, installation method, and relevant hardware or drivers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give a minimal sequence that demonstrates the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Describe what happened, including any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshots
+      description: Optional supporting evidence, with credentials and personal data removed.

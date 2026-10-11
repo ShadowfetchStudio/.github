@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest an improvement to a Shadowfetch Studio project.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What are you trying to accomplish, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain the behavior you would like and how it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing features, workarounds, or other approaches you tried.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Relevant platform, examples, or mockups. Do not include private data.

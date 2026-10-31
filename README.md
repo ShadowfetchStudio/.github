@@ -2,7 +2,7 @@
 
 Shared contribution, support, and security guidance for Shadowfetch Studio projects.
 
-- [Studio website](https://shadowfetch.com)
+- [Studio website](https://shadowfetchstudio.com)
 - [GitHub project catalog](https://github.com/ShadowfetchStudio)
 - [Linux & open source](https://www.shadowfetchlinux.org)
 - [Apple apps](https://www.shadowfetch.com)
